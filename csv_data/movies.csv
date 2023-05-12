@@ -1,0 +1,11 @@
+movieId,title,genres,directedBy,starring
+1,Toy Story (1995),Adventure|Animation|Children|Comedy|Fantasy,John Lasseter,Tom Hanks|Tim Allen|Don Rickles|Jim Varney|Wallace Shawn|John Ratzenberger|Annie Potts|John Morris|Erik von Detten|
+2,Jumanji (1995),Adventure|Children|Fantasy,Joe Johnston,Robin Williams|Kirsten Dunst|David Alan Grier|Bonnie Hunt|Jonathan Hyde|Bebe Neuwirth|
+3,Black Sheep (1996),Comedy,Penelope Spheeris,Chris Farley|David Spade|Tim Matheson|Christine Ebersole|Gary Busey
+4,Apollo 13 (1995),Adventure|Drama|IMAX,Ron Howard,Tom Hanks|Kevin Bacon|Bill Paxton|Gary Sinise|Ed Harris|Kathleen Quinlan|
+5,Rob Roy (1995),Action|Drama|Romance|War,Michael Caton-Jones,Liam Neeson|Jessica Lange|John Hurt|Tim Roth|Eric Stoltz|Brian Cox|
+6,Balto (1996),Adventure|Animation|Children,Simon Wells,Kevin Bacon|Bridget Fonda|Jim Cummings|Phil Collins|Bob Hoskins|
+7,Toy Story 2 (1999),Adventure|Animation|Children|Comedy|Fantasy,John Lasseter|Lee Unkrich|Ash Brannon,Tom Hanks|Tim Allen|Joan Cusack|Kelsey Grammer|Don Rickles|Jim Varney|Wallace Shawn|John Ratzenberger|Wayne Knight|John Morris|Laurie Metcalf|Estelle Harris|Andrew Stanton
+8,October Sky (1999),Drama,Joe Johnston,Jake Gyllenhaal|Chris Cooper|Chris Owen|Laura Dern
+9,Ransom (1996),Crime|Thriller,Ron Howard,Mel Gibson|Rene Russo|Gary Sinise|Delroy Lindo|Lili Taylor
+10,City by the Sea (2002),Crime|Drama,Michael Caton-Jones,Robert De Niro|Frances McDormand|James Franco|Eliza Dushku|William Forsythe|George Dzundza

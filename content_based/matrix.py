@@ -4,7 +4,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.pipeline import Pipeline
 import pandas
 from pandas import isnull, notnull
-def tfidf_matrix(movies):
+def tfidf_matrix(movies, attribute):
     """
         Dùng hàm "TfidfVectorizer" để chuẩn hóa "genres" với:
         + analyzer='word': chọn đơn vị trích xuất là word
@@ -13,7 +13,7 @@ def tfidf_matrix(movies):
         Lúc này ma trận trả về với số dòng tương ứng với số lượng film và số cột tương ứng với số từ được tách ra từ "genres"
     """
     tf = TfidfVectorizer(analyzer='word', ngram_range=(1, 1), min_df=0)
-    new_tfidf_matrix = tf.fit_transform(movies['genres']).toarray()
+    new_tfidf_matrix = tf.fit_transform(movies[attribute]).toarray()
     print("Ma trận TF-IDF\n", new_tfidf_matrix)
     return new_tfidf_matrix
 

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">
+    </div>
+    <div class="recommend">
+        {% for movie in movies %}
+        <form action="{{movie.title}}" method="post">
+            <div class="movie_recommend ">
+                <div class="info_movies">
+                    <div class="name_movies">
+                        <img class="img-rcm" src="https://movieplayer.net-cdn.it/t/images/2017/12/20/bright_jpg_191x283_crop_q85.jpg" />
+                    </div>
+                    <div class="text_recommend">
+                        <h1>{{movie.title}}</h1>
+                        <h4>directedBy: {{movie.directedBy}}</h4>
+                    </div>
+                </div>
+            </div>
+            <select name="category">
+                <option value="genres">Genres</option>
+                <option value="directedBy">directedBy</option>
+                <option value="starring">Starring</option>
+            </select>              
+            <button type="submit">Submit</button>
+        </form>
+        {% endfor %}
+    </div>
+</body>
+</html>
